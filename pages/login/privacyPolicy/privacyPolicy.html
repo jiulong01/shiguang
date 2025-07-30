@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://at.alicdn.com/t/c/font_4683454_k1sn01y89bl.css">
+    <style lang="less" scoped>
+        html,
+        body {
+            margin: 0;
+            background-color: #f8f8f8;
+        }
+
+        .privavy {
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .preface {
+            font-weight: 700;
+        }
+
+        .box-nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 50px;
+            font-weight: 700;
+            background-color: #fff;
+            line-height: 50px;
+        }
+
+        .box-nav-1 {
+            display: flex;
+            align-items: center;
+        }
+
+        .box-nav-small {
+            margin-left: auto;
+            margin-right: 41%;
+        }
+
+        .box-nav-small>span {
+            color: #EB5A0E;
+        }
+
+        .small {
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .small-box {
+            border: 4px solid #EB5A0E;
+            transform: translateY(-10px);
+        }
+
+        .icon-fanhui1 {
+            margin-left: 10px;
+            width: 15px;
+            height: 15px;
+            align-self: flex-start;
+            color: #EB5A0E;
+        }
+
+        .box-content {
+            width: 86%;
+            height: auto;
+            background-color: rgb(253, 253, 253);
+            margin-top: 18.13vw;
+            font-size: 3.73vw;
+            padding: 2.67vw;
+            border-radius: 1.07vw;
+            box-shadow: 0 0 1.33vw rgba(0, 0, 0, 0.2);
+            margin-bottom: 4.27vw;
+        }
+
+        .box-content-0 {
+            display: flex;
+            flex-direction: column;
+            margin-top: 4vw;
+        }
+
+        .box-content-1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box-content-1-1 {
+            display: flex;
+            flex-direction: column;
+            text-indent: 1rem;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section-title {
+            font-size: 4.27vw;
+            font-weight: 700;
+        }
+
+        .section-title1 {
+            font-size: 4vw;
+            font-weight: 700;
+        }
+
+        .date {
+            font-weight: 400;
+        }
+
+        .paragraph {
+            font-size: 4vw;
+            line-height: 1.4;
+        }
+
+        .paragraph1-content {
+            display: flex;
+            flex-direction: column;
+            text-indent: 1rem;
+        }
+
+        .paragraph1 {
+            display: flex;
+            flex-direction: column;
+            font-size: 4vw;
+        }
+
+        .animate-page {
+            animation: pageSlideIn 0.8s ease;
+        }
+
+        @keyframes pageSlideIn {
+            from {
+                transform: translateX(4vw);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box animate-page">
+        <div class="box-nav">
+            <div class="box-nav-1">
+                <i class="iconfont icon-fanhui1"></i>
+                <div class="box-nav-small">
+                    <span>隐私政策</span>
+                    <div class="small">
+                        <div class="small-box"></div>
+                        <div class="small-box"></div>
+                        <div class="small-box"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <zero-loading v-if="isLoading" type="wobble" position="absolute" mask color="#EB5A0E"></zero-loading> -->
+        <div style="display: flex;flex-direction: column;align-items: center;">
+            <!-- <uni-nav-bar color="#EB5A0E" title="隐私政策" left-icon="left" class="box-nav" fixed='true' shadow
+                @clickLeft="tolastpage" /> -->
+            <div class="box-content">
+                <div class="box-content-0">
+                    <text class="privavy">隐私政策</text>
+                    <text class="date">附：隐私政策摘要</text>
+                    <text class="date">更新日期：2025年04月21日</text>
+                    <text class="date">生效日期：2025年04月22日</text>
+                    <text class="preface">·&nbsp;&nbsp;前言</text>
+                    <text class="paragraph">
+                        我们深知个人信息及隐私对您的重要性，我们致力于确保您的个人信息及隐私得到合理的保护，不被非法收集、使用和分享，并确保您依法享有的知情、控制及相关权利。我们将严格按照权责一致、目的明确、选择同意、最小必要、确保安全、主体参与和公开透明的原则收集和处理您的个人信息。
+                    </text>
+                </div>
+                <div class="box-content-1">
+                    <text class="section-title1">第1条&nbsp;信息收集</text>
+                    <text>(1)&nbsp;我们收集的信息类型</text>
+                    <div class="box-content-1-1">
+                        <text><text style="font-weight: 700;">个人身份信息：</text>如姓名、电子邮件地址、电话号码等。</text>
+                        <text><text style="font-weight: 700;">设备信息：</text>包括设备型号、操作系统版本、唯一设备标识符（UDID）、IP地址等。</text>
+                        <text><text style="font-weight: 700;">位置信息：</text>若您授权，我们将收集地理位置信息。</text>
+                        <text><text style="font-weight: 700;">使用情况信息：</text>关于您如何与我们的服务互动的数据，比如访问时间、浏览记录、偏好设置等。</text>
+                    </div>
+                    <text>(2)&nbsp;信息收集方式</text>
+                    <div class="box-content-1-1">
+                        <text><text style="font-weight: 700;">直接收集：</text>当您注册账户、填写表单或参与调查时提供的信息。</text>
+                        <text><text style="font-weight: 700;">自动收集：</text>通过Cookies、像素标签和其他类似技术自动获取的信息。</text>
+                    </div>
+                </div>
+                <div class="box-content-1">
+                    <text class="section-title1">第2条&nbsp;信息使用</text>
+                    <text>(1)&nbsp;我们将收集到的信息用于但不限于以下目的：</text>
+                    <div class="box-content-1-1">
+                        <text style="font-weight: 700;">提供并改进我们的服务；</text>
+                        <text style="font-weight: 700;">管理用户账户；</text>
+                        <text style="font-weight: 700;">发送重要的通知和服务更新；</text>
+                        <text style="font-weight: 700;">分析趋势、管理网站、跟踪用户的网站活动；</text>
+                        <text style="font-weight: 700;">根据您的兴趣展示个性化广告。</text>
+                    </div>
+                </div>
+                <div class="box-content-1">
+                    <text class="section-title1">第3条&nbsp;信息分享与披露</text>
+                    <text>(1)&nbsp;我们不会出售您的个人信息。但可能会在以下情况下分享这些信息：</text>
+                    <div class="box-content-1-1">
+                        <text><text style="font-weight: 700; ">第三方服务提供商：</text>为了运营我们的业务，我们可能需要向合作伙伴分享必要的信息。</text>
+                        <text><text style="font-weight: 700;">法律要求：</text>应法律程序的要求，如法院命令或政府机构的请求。</text>
+                        <text><text style="font-weight: 700;">保护我们的权利：</text>当我们认为有必要披露信息以保护我们的权利、财产或安全时。</text>
+                    </div>
+                </div>
+                <div class="box-content-1">
+                    <text class="section-title1">第4条&nbsp;数据安全措施</text>
+                    <text class="paragraph">
+                        我们采取了合理的物理、技术和行政保护措施来保护您的个人信息免受未经授权的访问、泄露、更改或破坏。然而，请注意，没有任何一种互联网传输方法或电子存储方法是100%安全的。
+                    </text>
+                </div>
+                <div class="box-content-1">
+                    <text class="section-title1">第5条&nbsp;用户选择与控制</text>
+                    <text class="paragraph">
+                        您有权查看、更正、删除您的个人信息，或者撤回对我们处理您个人信息的同意。具体操作方式可通过App内的设置选项实现，或者联系我们的客服团队。
+                    </text>
+                </div>
+                <div class="box-content-1">
+                    <text class="section-title1">第6条&nbsp;儿童隐私</text>
+                    <text class="paragraph">
+                        我们的服务不针对14岁以下的儿童。如果我们发现自己无意中收集了14岁以下儿童的个人信息，我们会立即采取措施删除该信息。
+                    </text>
+                </div>
+                <div class="box-content-1">
+                    <text class="section-title1">第7条&nbsp;隐私政策的更新</text>
+                    <text class="paragraph">
+                        我们保留随时修改此隐私政策的权利。任何重大变更都会通过App内公告或邮件通知现有用户。
+                    </text>
+                </div>
+                <div class="box-content-1">
+                    <text class="section-title1">第8条&nbsp;联系我们</text>
+                    <text>如果您有任何疑问或需要进一步的帮助，请通过以下方式联系我们：</text>
+                    <div class="box-content-1-1">
+                        <text>邮箱：support@example.com</text>
+                        <text>地址：[公司地址]</text>
+                    </div>
+                </div>
+                <text>感谢您花时间了解我们的隐私政策！</text>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "wu-calendar": "/uni_modules/wu-calendar/components/wu-calendar/wu-calendar",
+    "t-color-picker": "/components/t-color-picker/t-color-picker"
+  }
+}

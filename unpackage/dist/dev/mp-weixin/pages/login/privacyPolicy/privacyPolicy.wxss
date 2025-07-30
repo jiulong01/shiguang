@@ -1,0 +1,102 @@
+page.data-v-1dfe2e16,
+page.data-v-1dfe2e16,
+uni-page-body.data-v-1dfe2e16 {
+  height: 100%;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+.privavy.data-v-1dfe2e16 {
+  font-weight: 700;
+  text-align: center;
+}
+.preface.data-v-1dfe2e16 {
+  font-weight: 700;
+}
+.box.data-v-1dfe2e16 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-nav.data-v-1dfe2e16 {
+  font-weight: 700;
+}
+.box-content.data-v-1dfe2e16 {
+  width: 86%;
+  height: auto;
+  background-color: #fdfdfd;
+  margin-top: 36rpx;
+  font-size: 28rpx;
+  padding: 20rpx;
+  border-radius: 8rpx;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.2);
+  margin-bottom: 36rpx;
+}
+.box-content-0.data-v-1dfe2e16 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rpx;
+}
+.box-content-1.data-v-1dfe2e16 {
+  display: flex;
+  flex-direction: column;
+}
+.box-content-1-1.data-v-1dfe2e16 {
+  display: flex;
+  flex-direction: column;
+  text-indent: 1rem;
+}
+.section-title.data-v-1dfe2e16 {
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.section-title1.data-v-1dfe2e16 {
+  font-size: 30rpx;
+  font-weight: 700;
+}
+.date.data-v-1dfe2e16 {
+  font-weight: 400;
+}
+.paragraph.data-v-1dfe2e16 {
+  font-size: 30rpx;
+  line-height: 1.4;
+}
+.paragraph1.data-v-1dfe2e16 {
+  display: flex;
+  flex-direction: column;
+  font-size: 30rpx;
+}
+.paragraph1-content.data-v-1dfe2e16 {
+  display: flex;
+  flex-direction: column;
+  text-indent: 1rem;
+}
+.animate-page.data-v-1dfe2e16 {
+  -webkit-animation: pageSlideIn-data-v-1dfe2e16 0.8s ease;
+          animation: pageSlideIn-data-v-1dfe2e16 0.8s ease;
+}
+@-webkit-keyframes pageSlideIn-data-v-1dfe2e16 {
+from {
+    -webkit-transform: translateX(30px);
+            transform: translateX(30px);
+    opacity: 0;
+}
+to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+}
+}
+@keyframes pageSlideIn-data-v-1dfe2e16 {
+from {
+    -webkit-transform: translateX(30px);
+            transform: translateX(30px);
+    opacity: 0;
+}
+to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+}
+}
+

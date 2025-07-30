@@ -1,0 +1,168 @@
+{
+	"pages": [{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/task/task",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/register/register",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/findPassword/findPassword",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/userAgreement/userAgreement",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/privacyPolicy/privacyPolicy",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/task/task",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/task/createTask/createTask",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/manage/manage",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/statistics/statistics",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/calendar/calendar",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/toVip/toVip",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/toVip/agreement/member",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/toVip/agreement/autoRenew",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/webview/webviewuser",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/webview/webviewprivacy",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "components/BottomBar/BottomBar",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/Personalnfo/Personalnfo",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/NotificationSettings/NotificationSettings",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#ff6b00",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/task/task",
+				"text": "任务",
+				"iconPath": "/static/tabbar/task.png",
+				"selectedIconPath": "static/tabbar/taskActive.png"
+			},
+			{
+				"pagePath": "pages/manage/manage",
+				"text": "四象限",
+				"iconPath": "/static/tabbar/fourQuadrant.png",
+				"selectedIconPath": "/static/tabbar/fourQuadrantActive.png"
+			},
+			{
+				"pagePath": "pages/statistics/statistics",
+				"text": "统计",
+				"iconPath": "/static/tabbar/statistics.png",
+				"selectedIconPath": "/static/tabbar/statisticsActive.png"
+			},
+			{
+				"pagePath": "pages/calendar/calendar",
+				"text": "日历",
+				"iconPath": "/static/tabbar/calendar.png",
+				"selectedIconPath": "static/tabbar/calendarActive.png"
+			},
+			{
+				"pagePath": "pages/setting/setting",
+				"text": "设置",
+				"iconPath": "static/tabbar/set.png",
+				"selectedIconPath": "static/tabbar/setActive.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"uniIdRouter": {}
+}

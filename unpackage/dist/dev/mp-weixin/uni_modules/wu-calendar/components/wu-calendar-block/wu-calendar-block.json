@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "wu-calendar-item": "/uni_modules/wu-calendar/components/wu-calendar-item/wu-calendar-item"
+  },
+  "component": true
+}

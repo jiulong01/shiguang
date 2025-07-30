@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/task/task",
+    "pages/login/register/register",
+    "pages/login/findPassword/findPassword",
+    "pages/login/userAgreement/userAgreement",
+    "pages/login/privacyPolicy/privacyPolicy",
+    "pages/task/task",
+    "pages/task/createTask/createTask",
+    "pages/manage/manage",
+    "pages/statistics/statistics",
+    "pages/calendar/calendar",
+    "pages/setting/setting",
+    "pages/toVip/toVip",
+    "pages/toVip/agreement/member",
+    "pages/toVip/agreement/autoRenew"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff6b00",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/task/task",
+        "text": "任务",
+        "iconPath": "/static/tabbar/task.png",
+        "selectedIconPath": "static/tabbar/taskActive.png"
+      },
+      {
+        "pagePath": "pages/manage/manage",
+        "text": "四象限",
+        "iconPath": "/static/tabbar/fourQuadrant.png",
+        "selectedIconPath": "/static/tabbar/fourQuadrantActive.png"
+      },
+      {
+        "pagePath": "pages/statistics/statistics",
+        "text": "统计",
+        "iconPath": "/static/tabbar/statistics.png",
+        "selectedIconPath": "/static/tabbar/statisticsActive.png"
+      },
+      {
+        "pagePath": "pages/calendar/calendar",
+        "text": "日历",
+        "iconPath": "/static/tabbar/calendar.png",
+        "selectedIconPath": "static/tabbar/calendarActive.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "设置",
+        "iconPath": "static/tabbar/set.png",
+        "selectedIconPath": "static/tabbar/setActive.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

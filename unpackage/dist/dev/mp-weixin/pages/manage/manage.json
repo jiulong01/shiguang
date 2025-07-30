@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "member": "/components/Member/Member",
+    "my-calendar": "/components/my-calendar/my-calendar"
+  }
+}
